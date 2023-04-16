@@ -5,25 +5,101 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="Description" Learn how to take care of your mental health and wellness on ESJAY therapeautical services>
     <title>ESJAY Therapeautical Homepage</title>
-    <link rel="stylesheet" href="">
+    <style>
+        .container {
+            min-height: 100vh;
+            background-image: url("../images/Image 3.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            font-style: normal;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 2.0rem;
+        }
+        
+        .logo {
+            color: rgb(49, 62, 66);
+            float: left;
+            line-height: 50px;
+            font-size: 30px;
+            font-size: inline;
+        }
+        nav ul {
+            float: right;
+            line-height: 0px;
+            
+        }
+        nav ul li {
+            display: inline-block;
+            list-style: none;
+            padding:0px 5px;
+        }
+        nav ul li a {
+            color: rgb(17, 17, 16);
+            text-decoration: none;
+            text-transform: uppercase;
+            border-radius: 5px;
+            padding:2px 3px;
+        }
+        nav ul li a:hover{
+            background-color: rgb(203, 203, 226);
+            transition: 0.5s ease;
+        }
+        nav ul li .active{
+            background-color: rgb(203, 203, 226);   
+        }
+        .article {
+            width: 50%;
+            margin:auto;
+            text-align: center;
+            transform: translateY(25vh);
+        }
+        .article h1{
+            font-size: 40px;
+            color: rgb(15, 15, 15);
+            letter-spacing: 1.5px;
+            font-weight: 800;
+            margin-bottom: 25px;
+        }
+        .article p{
+            font-size: 18px;
+            color: rgb(5, 5, 5);
+            line-height: 1.5;
+            margin-bottom: 50px;
+        }
+        .article a {
+            padding: 1rem 2rem;
+            background-color: rgb(228, 240, 228);
+            border: none;
+            color: rgb(10, 10, 10);
+            font-size: 1.8rem;
+            cursor: pointer;
+            border-radius: 1.5rem;
+            margin-left: 25%;
+            text-align: center;
+        }
+        .article a:hover{
+            background-color: rgb(203, 203, 226);
+            transition: 0.5s ease;
+        }
+    </style>
 </head>
 <body>
     <section>
         <div class="container">
             <nav>
-                <h1>Logo</h1>
+                <h1 class="logo">Live Life</h1>
                 <ul>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">About Us</a></li>
-                    <li><a href="">Services</a></li>
-                    <li><a href="">Pricing</a></li>
-                    <li><a href="">Contact Us</a></li>
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="Aboutus.html">About Us</a></li>
+                    <li><a href="Services.html">Services</a></li>
+                    <li><a href="Pricing.html">Pricing</a></li>
+                    <li><a href="Contactus.html">Contact Us</a></li>
                 </ul>
             </nav>
             <div class="article">
                 <h1>ESJAY Therapeautical Services</h1>
                 <p>Welcome to ESJAY therapeautical services. We provide the best wellness approaches needed to everyone to ensure the best mental health status. Navigate who we are, the services we offer, the pricing, and how to reach us for the best mental health advise! Thank you and we hope you will get what you are looking for as the best way to ensure your mental stability! <br> </p>
-                <a href="button">Log in</a>
+                <a href="Login.html">Log In</a>
             </div>
         </div>
     </section>
